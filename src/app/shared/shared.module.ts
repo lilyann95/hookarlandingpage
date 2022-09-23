@@ -8,9 +8,15 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
 import { GalleryComponent } from './gallery/gallery.component';
+import { WelcomeSectionComponent } from './welcome-section/welcome-section.component';
 
 @NgModule({
-  declarations: [NavbarSectionComponent, FooterComponent, GalleryComponent],
+  declarations: [
+    NavbarSectionComponent,
+    FooterComponent,
+    GalleryComponent,
+    WelcomeSectionComponent,
+  ],
   imports: [
     CommonModule,
     SharedRoutingModule,
@@ -18,6 +24,11 @@ import { GalleryComponent } from './gallery/gallery.component';
     MatDividerModule,
     MatIconModule,
   ],
-  exports: [NavbarSectionComponent, FooterComponent, GalleryComponent],
+  exports: [
+    NavbarSectionComponent,
+    FooterComponent,
+    GalleryComponent,
+    WelcomeSectionComponent,
+  ],
 })
 export class SharedModule {}

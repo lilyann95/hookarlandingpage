@@ -11,7 +11,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { LottieModule } from 'ngx-lottie';
-import { WelcomeSectionComponent } from './components/welcome-section/welcome-section.component';
 import { ConnectSectionComponent } from './components/connect-section/connect-section.component';
 import { OurStorySectionComponent } from './components/our-story-section/our-story-section.component';
 import { OffersSectionComponent } from './components/offers-section/offers-section.component';
@@ -28,7 +27,6 @@ import { SharedModule } from '../shared/shared.module';
     ComingSoonComponent,
     ComingSoonerComponent,
     CountDownTimerComponent,
-    WelcomeSectionComponent,
     ConnectSectionComponent,
     OurStorySectionComponent,
     OffersSectionComponent,
