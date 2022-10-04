@@ -1,50 +1,42 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ReactiveFormsModule } from '@angular/forms';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatDividerModule } from '@angular/material/divider';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatIconModule } from '@angular/material/icon';
-import { MatButtonModule } from '@angular/material/button';
 
+import { MatDividerModule } from '@angular/material/divider';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
-import { LottieModule } from 'ngx-lottie';
-import { ConnectSectionComponent } from './components/connect-section/connect-section.component';
-import { OurStorySectionComponent } from './components/our-story-section/our-story-section.component';
-import { OffersSectionComponent } from './components/offers-section/offers-section.component';
-import { InspirationSectionComponent } from './components/inspiration-section/inspiration-section.component';
-import { HelloSectionComponent } from './components/hello-section/hello-section.component';
-import { ComingSoonComponent } from './components/coming-soon/coming-soon.component';
-import { CountDownTimerComponent } from './components/coming-soon/count-down-timer/count-down-timer.component';
-import { ComingSoonerComponent } from './components/coming-sooner/coming-sooner.component';
-import { SharedModule } from '../shared/shared.module';
+import { BrandsComponent } from './brands/brands.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { WhyUsComponent } from './why-us/why-us.component';
+import { SpecialityComponent } from './speciality/speciality.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { SpecialityMixesComponent } from './speciality-mixes/speciality-mixes.component';
+import { SpecialMixesComponent } from './special-mixes/special-mixes.component';
+import { FlavorsComponent } from './flavors/flavors.component';
+import { NavbarSectionComponent } from './navbar-section/navbar-section.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
-    ComingSoonComponent,
-    ComingSoonerComponent,
-    CountDownTimerComponent,
-    ConnectSectionComponent,
-    OurStorySectionComponent,
-    OffersSectionComponent,
-    InspirationSectionComponent,
-    HelloSectionComponent,
+    BrandsComponent,
+    ExperienceComponent,
+    WhyUsComponent,
+    SpecialityComponent,
+    AboutUsComponent,
+    WelcomeComponent,
+    SpecialityMixesComponent,
+    SpecialMixesComponent,
+    FlavorsComponent,
+    NavbarSectionComponent,
+    FooterComponent,
   ],
   imports: [
     CommonModule,
     HomeRoutingModule,
-    SharedModule,
-    ReactiveFormsModule,
-    MatFormFieldModule,
-    LottieModule,
-    FontAwesomeModule,
-    MatToolbarModule,
     MatDividerModule,
-    MatIconModule,
-    MatButtonModule,
+    MatToolbarModule,
   ],
 })
 export class HomeModule {}
